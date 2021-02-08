@@ -1,0 +1,31 @@
+.header {
+    width: 100% ;
+    display: flex ;
+    justify-content : space-between ; 
+    align-items: center ; 
+    padding: 4vh 4vw ;
+    box-shadow : 0px .3px 10px gray ;
+    background-color: white ;
+    position: relative ;
+}
+.header h1 {
+    font-size: 1.5rem ;
+}
+.header > h1 {
+    font-weight: 800 ;
+}
+.header-right {
+    display : flex ;
+    align-items: center ;
+}
+.header-right > h1 {
+    font-weight: 600 ;
+}
+.header-right .MuiIconButton-root {
+    margin: 0 5px ;
+    transform: rotate(130deg);
+    -webkit-transform: rotate(130deg);
+    -moz-transform: rotate(130deg);
+    -ms-transform: rotate(130deg);
+    -o-transform: rotate(130deg);
+}

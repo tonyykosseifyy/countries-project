@@ -1,0 +1,124 @@
+.single-country {
+    padding: 4vh 4vw ;
+    width: 100% ;
+}
+
+.single-country > button {
+    padding: 10px 30px ;
+    border-radius: 8px ;
+    -webkit-border-radius: 8px ;
+    -moz-border-radius: 8px ;
+    -ms-border-radius: 8px ;
+    -o-border-radius: 8px ;
+    color: inherit ;
+    outline: none ;
+    border: none ;
+    box-shadow: 0px 0px 8px gray ;
+    display: flex ;
+    align-items: center ;
+    justify-content: center ;
+    transition: box-shadow .28s ease-in-out ;
+    -webkit-transition: box-shadow .28s ease-in-out ;
+    -moz-transition: box-shadow .28s ease-in-out ;
+    -ms-transition: box-shadow .28s ease-in-out ;
+    -o-transition: box-shadow .28s ease-in-out ;
+}
+.single-country > button:hover {
+    box-shadow: 0px 0px 10px
+}
+.main-content {
+    display: flex ;
+    margin: 60px 0 ;
+}
+.go-back {
+    transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    margin-right: 5px ;
+}
+.right-content  {
+    flex: .45 ;
+}
+.left-content {
+    flex: .55
+}
+.left-content > img {
+    object-fit: cover ;
+    width: 100% ;
+    height: 100% ;
+}
+.single-country-info {
+    display: flex ;
+}
+.country-info-left , .country-info-right {
+    flex: .5 ;
+}
+.map-country-container {
+    width: 100% ;
+    height: 550px ;
+    padding: 4vh 4vw ;
+}
+ul {
+    list-style-type: none ;
+}
+ul > li {
+    margin: 10px 0px ;
+}
+.right-content {
+    padding: 20px 80px ;
+    position: relative; 
+    display: flex ;
+    flex-direction: column ;
+    justify-content: space-between ;
+}
+.right-content > h1 {
+    font-weight: bolder; 
+    font-size: 2.5rem ;
+}
+.bottom-info {
+    display: flex ;
+    align-items: center ;
+    width: 100% ;
+    justify-content: space-between
+}
+.bottom-info > strong {
+    font-size: 17px ;
+    white-space: pre ;
+}
+.no-result-button {
+    background: transparent ;
+    color: #1898C3 ;
+    outline: none ;
+    border: none ;
+}
+.no-result-button:hover {
+    text-decoration: underline ;
+}
+.no-result-cont {
+    display: flex ;
+    margin: 0 auto ;
+    width: 100% ;
+    justify-content: center ;
+    align-items: center ;
+}
+@media screen and (max-width: 950px) {
+    .main-content {
+        flex-direction : column ;
+    }
+    .single-country-info {
+        flex-direction: column ;
+    }
+    .right-content {
+        padding: 20px 0 ;
+    }
+    .bottom-info {
+        left: 0 ;
+        align-items: flex-start ;
+        flex-direction: column ;
+    }
+    .country-info-right {
+        margin: 10px 0 ;
+    }
+}

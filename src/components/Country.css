@@ -1,0 +1,58 @@
+.country {
+    display: flex ;
+    flex-direction: column ;
+    /*flex: 20% ;
+    margin: 50px 20px ;
+    */background-color: white ;
+    height: 400px ;
+    border-radius: 6px ;
+    -webkit-border-radius: 6px ;
+    -moz-border-radius: 6px ;
+    -ms-border-radius: 6px ;
+    -o-border-radius: 6px ;
+    box-shadow: 0px 0px 8px #C7C7C7 ;
+    overflow:hidden ;
+}
+
+.country > img {
+    width: 100% ;
+    object-fit: cover ;
+    height: 200px ;
+}
+.country > div {
+    flex: .45 ;
+    height: 45% ;
+    margin: 20px 15px ;
+}
+
+.country h1 {
+    font-weight: 800 ;
+    font-size: 20px ;
+    margin: 8px 0 ;
+}
+
+.country strong {
+    font-weight: 700 ;
+    margin: 4px 0px ;
+    font-size: 16px ;
+}
+.country strong span {
+    font-weight :300 ;
+}
+.country-detail {
+    display: flex ; 
+    flex-direction: column ;
+}
+.country-go {
+    display: flex ;
+}
+@media screen and (max-width: 964px) {
+    .country {
+        flex: 40% ;
+    }
+}
+@media screen and (max-width: 530px) {
+    .country {
+        flex: 100% ;
+    }
+}
